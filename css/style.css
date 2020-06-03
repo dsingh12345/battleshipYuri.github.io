@@ -6,11 +6,12 @@
     content: "";
     clear: both;
     display: block;
+    text-align: center;
   }
   
   [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: auto;
   }
   
   html {
@@ -27,6 +28,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   .footer {
     background-color: #0099cc;
